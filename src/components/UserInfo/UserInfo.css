@@ -1,0 +1,91 @@
+.userinfo {
+  height: 55%;
+  border: 0.5px solid #b4b4bb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0px #0000007A;
+  padding: 20px;
+}
+
+.userinfo-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0px 5px 0 10px;
+}
+
+.userinfo-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userinfo-hand {
+  width: 34px;
+  height: 34px;
+}
+.userinfo-navy{
+  width: 81px;
+}
+
+.userinfo-user {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: start;
+}
+
+.userinfo-para {
+  font-family: 'Red Hat Display';
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.userinfo-user h1 {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  line-height: 36px;
+  font-size: 36px;
+}
+
+.userinfo-id {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+.userinfo hr {
+  margin: 15px 0;
+  background: #111111;
+  opacity: 0.5;
+}
+
+.userinfo-activity {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}
+
+.userinfo-act{
+  font-family: 'Red Hat Display';
+  font-size: 18px;
+  font-weight: 500;
+  color: #121212;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.userinfo-time{
+  font-weight: 400;
+  color: #5D6F88;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  font-family: 'Red Hat Display';
+
+}
+.userinfo-time span{
+  font-weight: 700;
+}
+
+
+

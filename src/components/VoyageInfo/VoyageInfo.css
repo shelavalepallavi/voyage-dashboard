@@ -1,0 +1,82 @@
+.voyageinfo {
+  height: 45%;
+  border: 0.5px solid #b4b4bb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0px #0000007A;
+  padding: 20px;
+}
+
+.voyage-upper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.voyage-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.voyage-head img{
+  cursor: pointer;
+}
+
+.voyage-head p {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+.voyage-infomation{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.voyage-status{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.44px;
+  line-height: 1;
+}
+.voyage-status span{
+  font-size: 12px;
+  cursor: pointer;
+}
+.voyage-lift{
+  font-weight: 700;
+  font-size: 18px;
+  color: #5A5B6A;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.voyageinfo hr{
+  margin: 20px 0;
+  background: #111111;
+  opacity: 0.5;
+}
+.voyage-down{
+  display: flex;
+  gap: 65px;
+  padding-left: 10px;
+}
+.voyage-left, .voyage-right{
+  line-height: 1;
+}
+.voyage-left-parafir{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.44px;
+}
+.voyage-left-parasec{
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.25px;
+  color: #5A5B6A;
+}
+
+
+

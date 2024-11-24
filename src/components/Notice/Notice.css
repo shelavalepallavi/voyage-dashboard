@@ -1,0 +1,64 @@
+.notice{
+  background: #FFFAEC;
+  border-radius: 12px;
+  padding: 20px 20px 25px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.notice-head{
+  display: flex;
+}
+.notice-head p{
+  flex: 1;
+  font-weight: 500;
+  color: #E95454;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  font-size: 12px;
+}
+.notice-head img{
+  cursor: pointer;
+}
+.notice-para p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  font-family: 'Red Hat Display';
+
+}
+.notice-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notice-img{
+  display: flex;
+  gap: 10px;
+}
+.notice-img img{
+  cursor: pointer;
+}
+.notice-img p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+.notice-bottom button{
+  background: #e6554a;
+  border: none;
+  color: white;
+  padding: 7px 24px;
+  border-radius: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+
+
+
