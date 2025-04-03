@@ -9,7 +9,7 @@ const TaskItem = ({ title, assignedBy, due, isCompleted, isFirst }) => {
       className={`taskitem ${isCompleted ? "completed" : ""} ${
         isRedTask ? "red-task" : ""
       }`}
-    >
+    > 
       <div className={`task-checkbox ${isFirst ? "first-checkbox" : ""}`}>
         <input type="checkbox" checked={isCompleted} readOnly />
       </div>

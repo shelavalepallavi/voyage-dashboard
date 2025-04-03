@@ -5,7 +5,7 @@ const Sidebar = () => {
   const [activeMenu, setActiveMenu] = useState(0)
   const handleClick=(index)=>{
    setActiveMenu(index)
-  }
+  } 
   const menuItems = [
     { icon: "/src/assets/home.svg", label: "Home" },
     { icon: "/src/assets/workspace.svg", label: "Workspace" },
