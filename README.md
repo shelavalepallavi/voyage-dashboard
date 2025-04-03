@@ -65,8 +65,5 @@ An interactive **Voyage Dashboard** built using **React.js** to provide insightf
 ## 🤝 Contributing
 We welcome contributions! Feel free to fork this repository, create a new branch, and submit a pull request with improvements.
 
-## 📜 License
-This project is licensed under the MIT License.
 
----
-👩‍💻 Happy Coding & Bon Voyage! 🌍
+
