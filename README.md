@@ -3,7 +3,7 @@
 An interactive **Voyage Dashboard** built using **React.js** to provide insightful analytics and data visualization for travelers and administrators.
 
 ## 📸 Screenshot 🖼️
-![Voyage Dashboard Screenshot](dashboard.png)
+![Voyage Dashboard Screenshot](public/dashboard.png)
 
 ## ✨ Features
 - 📊 Dynamic charts and graphs
@@ -14,11 +14,8 @@ An interactive **Voyage Dashboard** built using **React.js** to provide insightf
 
 ## 🛠️ Technologies Used
 - ⚛️ **React.js** – Frontend framework
-- 🎨 **Tailwind CSS** – Styling and layout
-- 📡 **REST API** – Fetching real-time data
-- 📊 **Recharts/D3.js** – Data visualization
-- 🔐 **Firebase/Auth0** – Authentication (Optional)
-- 🌍 **Leaflet.js** – Interactive maps
+- 🎨 **CSS** – Styling and layout
+
 
 ## 📂 Project Structure
 ```
@@ -37,7 +34,7 @@ An interactive **Voyage Dashboard** built using **React.js** to provide insightf
 ## 📥 Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/voyage-dashboard.git
+   git clone https://github.com/shelavalepallavi/voyage-dashboard.git
    ```
 2. Navigate to the project folder:
    ```bash
@@ -45,13 +42,13 @@ An interactive **Voyage Dashboard** built using **React.js** to provide insightf
    ```
 3. Install dependencies:
    ```bash
-   npm install
+   npm install vite
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
-5. Open your browser and visit `http://localhost:3000`
+5. Open your browser and visit `http://localhost:5173`
 
 ## 🎯 How to Use
 1. 🔑 Log in to access the dashboard.
